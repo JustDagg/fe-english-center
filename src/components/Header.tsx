@@ -8,7 +8,10 @@ import {
   alpha,
   styled,
 } from '@mui/material';
-import type { Theme, SxProps } from '@mui/material';
+import type {
+  Theme,
+  SxProps
+} from '@mui/material';
 import { NavLink as RouterNavLink } from 'react-router-dom';
 
 const styles = {
@@ -69,11 +72,11 @@ const Header: React.FC = () => {
       <Container maxWidth="lg">
         <Toolbar sx={styles.toolbar}>
           <Box sx={{ display: 'flex', alignItems: 'center' }}>
-            <Typography 
-                variant="h6" 
-                sx={styles.logo} 
-                component={RouterNavLink} 
-                to="/home"
+            <Typography
+              variant="h6"
+              sx={styles.logo}
+              component={RouterNavLink}
+              to="/home"
             >
               English 6 - Unit 1
             </Typography>
@@ -81,10 +84,9 @@ const Header: React.FC = () => {
 
           <Box sx={styles.navBox}>
             <NavLink to="/home">Home</NavLink>
-            <NavLink to="/about">About Us</NavLink>
-            <NavLink to="/lesson">Lesson</NavLink>
-            <NavLink to="/practice">Practice</NavLink>
-            <NavLink to="/project">Project & Homework</NavLink>
+            <NavLink to="/about">Getting to know you</NavLink>
+            <NavLink to="/lesson">Virtual Lesson</NavLink>
+            <NavLink to="/project">School Life Project</NavLink>
           </Box>
         </Toolbar>
       </Container>

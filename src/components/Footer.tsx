@@ -1,6 +1,18 @@
 import { Link as RouterLink } from 'react-router-dom';
-import { Box, Container, Grid, Typography, Link, IconButton, alpha, Divider } from '@mui/material';
-import type { Theme, SxProps } from '@mui/material';
+import {
+  Box,
+  Container,
+  Grid,
+  Typography,
+  Link,
+  IconButton,
+  alpha,
+  Divider
+} from '@mui/material';
+import type {
+  Theme,
+  SxProps
+} from '@mui/material';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -64,7 +76,8 @@ const Footer: React.FC = () => {
               ENGLISH 6 - UNIT 1
             </Typography>
             <Typography variant="body1" sx={styles.description}>
-              Helping students master English with interaction and excitement. Start your journey with us and discover a new way of learning.
+              Helping students master English with interaction and excitement.
+              Start your journey with us and discover a new way of learning.
             </Typography>
             <Box sx={{ display: 'flex', gap: 2, mt: 3 }}>
               <IconButton sx={styles.socialButton}>
@@ -87,11 +100,38 @@ const Footer: React.FC = () => {
               QUICK PAGES
             </Typography>
             <Box sx={styles.linkContainer}>
-              <Link component={RouterLink} to="/home" underline="none" color="inherit" sx={styles.footerLink}>Home</Link>
-              <Link component={RouterLink} to="/about" underline="none" color="inherit" sx={styles.footerLink}>About Us</Link>
-              <Link component={RouterLink} to="/lesson" underline="none" color="inherit" sx={styles.footerLink}>Lesson</Link>
-              <Link component={RouterLink} to="/practice" underline="none" color="inherit" sx={styles.footerLink}>Practice</Link>
-              <Link component={RouterLink} to="/project" underline="none" color="inherit" sx={styles.footerLink}>Project</Link>
+              <Link component={RouterLink}
+                to="/home"
+                underline="none"
+                color="inherit"
+                sx={styles.footerLink}
+              >
+                Home
+              </Link>
+              <Link component={RouterLink}
+                to="/about"
+                underline="none"
+                color="inherit"
+                sx={styles.footerLink}
+              >
+                Getting to know you
+              </Link>
+              <Link component={RouterLink}
+                to="/lesson"
+                underline="none"
+                color="inherit"
+                sx={styles.footerLink}
+              >
+                Virtual Lesson
+              </Link>
+              <Link component={RouterLink}
+                to="/project"
+                underline="none"
+                color="inherit"
+                sx={styles.footerLink}
+              >
+                School Life Project
+              </Link>
             </Box>
           </Grid>
 
@@ -100,31 +140,70 @@ const Footer: React.FC = () => {
               RESOURCES
             </Typography>
             <Box sx={styles.linkContainer}>
-              <Link href="#" underline="none" color="inherit" sx={styles.footerLink}>Documentation</Link>
-              <Link href="#" underline="none" color="inherit" sx={styles.footerLink}>Support Center</Link>
-              <Link href="#" underline="none" color="inherit" sx={styles.footerLink}>Privacy Policy</Link>
-              <Link href="#" underline="none" color="inherit" sx={styles.footerLink}>Terms of Service</Link>
+              <Link href="#"
+                underline="none"
+                color="inherit"
+                sx={styles.footerLink}
+              >
+                Documentation
+              </Link>
+              <Link href="#"
+                underline="none"
+                color="inherit"
+                sx={styles.footerLink}
+              >
+                Support Center
+              </Link>
+              <Link href="#"
+                underline="none"
+                color="inherit"
+                sx={styles.footerLink}
+              >
+                Privacy Policy
+              </Link>
+              <Link href="#"
+                underline="none"
+                color="inherit"
+                sx={styles.footerLink}
+              >
+                Terms of Service
+              </Link>
             </Box>
           </Grid>
 
           <Grid size={{ xs: 12, md: 3 }}>
-            <Typography variant="h6" sx={styles.columnTitle}>
+            <Typography
+              variant="h6"
+              sx={styles.columnTitle}
+            >
               CONTACT US
             </Typography>
-            <Typography variant="body1" sx={{ color: '#94a3b8', mb: 1 }}>
-              English Learning Center, Suite 100, Hanoi, Vietnam.
+            <Typography
+              variant="body1"
+              sx={{ color: '#94a3b8', mb: 1 }}
+            >
+              English Learning Center, Hanoi, Vietnam.
             </Typography>
-            <Typography variant="body1" sx={{ color: '#94a3b8', mb: 1 }}>
-              support@english6.com
+            <Typography
+              variant="body1"
+              sx={{ color: '#94a3b8', mb: 1 }}
+            >
+              support@english.com
             </Typography>
-            <Typography variant="body1" sx={{ color: '#94a3b8' }}>
+            <Typography
+              variant="body1"
+              sx={{ color: '#94a3b8' }}
+            >
               +84 123 456 789
             </Typography>
           </Grid>
         </Grid>
         <Divider sx={styles.divider} />
-        <Typography variant="body2" sx={styles.copyright}>
-          &copy; 2024 English 6 - Unit 1. All rights reserved.
+        <Typography
+          variant="body2"
+          sx={styles.copyright}
+        >
+          &copy; 2026 English. All rights reserved.
         </Typography>
       </Container>
     </Box>
