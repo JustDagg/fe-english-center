@@ -57,6 +57,7 @@ const heroStyles = {
         fontSize: { xs: '1.2rem', md: '1.8rem' },
         fontWeight: 600,
         mb: 2,
+        color: "orange"
     } as SxProps<Theme>,
     body: {
         fontSize: '0.95rem',
@@ -288,7 +289,7 @@ const Hero: React.FC = () => (
                 variant="h5"
                 sx={heroStyles.subtitle}
             >
-                Introducing a Friend 👋
+                Introducing a Friend
             </Typography>
             <Typography
                 variant="body1"

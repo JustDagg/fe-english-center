@@ -128,9 +128,6 @@ const Hero: React.FC = () => (
       <Typography variant="h4" sx={styles.title}>
         GETTING TO <span style={{ color: '#facc15' }}>KNOW YOU</span>
       </Typography>
-      <Typography variant="h5" sx={styles.subtitle}>
-        Learn the Basics 👋
-      </Typography>
       <Typography variant="body1" sx={styles.body}>
         Master the art of introducing yourself and your friends with confidence.
         Follow our dialogue guides and speaking tips.

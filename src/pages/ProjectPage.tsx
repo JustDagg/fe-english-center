@@ -56,6 +56,7 @@ const styles = {
         fontSize: { xs: '1.2rem', md: '1.8rem' },
         fontWeight: 600,
         mb: 2,
+        color: "orange"
     } as SxProps<Theme>,
     body: {
         fontSize: '0.95rem',
@@ -113,10 +114,10 @@ const Hero: React.FC = () => (
                 HOMEWORK & PROJECT
             </Typography>
             <Typography variant="h4" sx={styles.title}>
-                SCHOOL LIFE <span style={{ color: '#facc15' }}>PROJECT</span> 📝
+                SCHOOL LIFE <span style={{ color: '#facc15' }}>PROJECT</span>
             </Typography>
             <Typography variant="h5" sx={styles.subtitle}>
-                Unit 1: My New School 🏫
+                Introduce Your Friend To The World
             </Typography>
             <Typography variant="body1" sx={styles.body}>
                 Apply your English skills by creating a personal video introduction and sharing it with your classmates on Padlet.

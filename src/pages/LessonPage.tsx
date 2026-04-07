@@ -58,6 +58,7 @@ const styles = {
     fontSize: { xs: '1.2rem', md: '1.8rem' },
     fontWeight: 600,
     mb: 2,
+    color: "orange"
   } as SxProps<Theme>,
   body: {
     fontSize: '0.95rem',
@@ -129,7 +130,7 @@ const Hero: React.FC = () => (
         MY NEW <span style={{ color: '#facc15' }}>SCHOOL</span>
       </Typography>
       <Typography variant="h5" sx={styles.subtitle}>
-        Introducing a Friend 👋
+        Introducing a Friend
       </Typography>
       <Typography variant="body1" sx={styles.body}>
         Welcome to your first lesson! Today we will learn how to introduce friends and use the verb 'to be' correctly.
