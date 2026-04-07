@@ -73,7 +73,7 @@ const Footer: React.FC = () => {
         <Grid container spacing={4} sx={{ mb: 8 }}>
           <Grid size={{ xs: 12, md: 4 }}>
             <Typography variant="h5" sx={styles.logo}>
-              ENGLISH 6 - UNIT 1
+              ENGLISH CENTER
             </Typography>
             <Typography variant="body1" sx={styles.description}>
               Helping students master English with interaction and excitement.
