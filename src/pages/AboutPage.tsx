@@ -17,7 +17,7 @@ import type {
 } from '@mui/material';
 import { Link } from 'react-router-dom';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
-import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
+import HomeIcon from '@mui/icons-material/Home';
 import RecordVoiceOverIcon from '@mui/icons-material/RecordVoiceOver';
 
 import BackButton from '../components/BackButton';
@@ -144,12 +144,12 @@ const Hero: React.FC = () => (
           to="/lesson"
           sx={{ bgcolor: '#facc15', color: '#1e293b', '&:hover': { bgcolor: '#eab308' } }}
         >
-          Watch lesson
+          Go to virtual lesson
         </Button>
         <Button
           variant="outlined"
           size="large"
-          startIcon={<HelpOutlineIcon />}
+          startIcon={<HomeIcon />}
           component={Link}
           to="/home"
           sx={{ color: '#fff', borderColor: '#fff', '&:hover': { bgcolor: alpha('#fff', 0.1), borderColor: '#fff' } }}

@@ -22,8 +22,9 @@ import BookIcon from '@mui/icons-material/Book';
 import CreateIcon from '@mui/icons-material/Create';
 import PlayCircleFilledWhiteIcon from '@mui/icons-material/PlayCircleFilledWhite';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
-import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
+import HomeIcon from '@mui/icons-material/Home';
 import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
+
 import BackButton from '../components/BackButton';
 
 const styles = {
@@ -133,7 +134,7 @@ const Hero: React.FC = () => (
       <Typography variant="body1" sx={styles.body}>
         Welcome to your first lesson! Today we will learn how to introduce friends and use the verb 'to be' correctly.
       </Typography>
-      <Box sx={styles.buttonContainer}>
+      <Box sx={{ display: 'flex', gap: 2, justifyContent: 'center' }}>
         <Button
           variant="contained"
           size="large"
@@ -142,17 +143,17 @@ const Hero: React.FC = () => (
           to="/project"
           sx={styles.primaryButton}
         >
-          Go to Project
+          Go to school life project
         </Button>
         <Button
           variant="outlined"
           size="large"
-          startIcon={<HelpOutlineIcon />}
+          startIcon={<HomeIcon />}
           component={Link}
           to="/home"
-          sx={styles.secondaryButton}
+          sx={{ color: '#fff', borderColor: '#fff', '&:hover': { bgcolor: alpha('#fff', 0.1), borderColor: '#fff' } }}
         >
-          Back to Home
+          Back home
         </Button>
       </Box>
     </Container>

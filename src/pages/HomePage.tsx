@@ -16,7 +16,6 @@ import type {
 } from '@mui/material';
 import { Link } from 'react-router-dom';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
-import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 import BadgeIcon from '@mui/icons-material/Badge';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
@@ -306,20 +305,10 @@ const Hero: React.FC = () => (
                     size="large"
                     startIcon={<PlayArrowIcon />}
                     component={Link}
-                    to="/lesson"
+                    to="/about"
                     sx={heroStyles.primaryButton}
                 >
-                    Start Learning
-                </Button>
-                <Button
-                    variant="outlined"
-                    size="large"
-                    startIcon={<HelpOutlineIcon />}
-                    component={Link}
-                    to="/about"
-                    sx={heroStyles.secondaryButton}
-                >
-                    View Tutorial
+                    Go to getting to know you
                 </Button>
             </Box>
         </Container>
