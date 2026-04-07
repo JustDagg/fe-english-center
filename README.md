@@ -10,7 +10,6 @@ A premium, modern English learning platform built with React, MUI, and Vite. Des
   - **Getting to know you**: Introducing yourself and friends properly.
   - **Virtual Lesson**: Video-based learning with "Watch & Listen" exercises.
   - **School Life Project**: Creative tasks and Padlet integration for sharing work.
-- **📱 Fully Responsive**: Optimized for Desktop, Tablet, and Mobile devices (Drawer-less clean navigation).
 - **🎨 Glassmorphism Header**: Stylish sticky header with real-time blur and gradient effects.
 - **🔄 Navigation Loop**: Seamless circular navigation between headers to guide students through the learning path.
 
